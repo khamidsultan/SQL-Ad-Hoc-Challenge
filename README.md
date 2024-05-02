@@ -16,7 +16,7 @@ Imagine yourself as the applicant for this role and perform the following task
 
 **Link for the challenge:** [codebasics.io](https://codebasics.io/challenge/codebasics-resume-project-challenge/7)
 
-##Solution
+## Solution
 
 ![1](https://github.com/khamidsultan/SQL-Ad-Hoc-Challenge/blob/a2530737d1288d8f2f126e05bb07d04e0014e53b/SQL%20Ad%20Hoc%20Presentation/1.jpg)
 
