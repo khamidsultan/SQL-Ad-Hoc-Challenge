@@ -170,7 +170,7 @@ SELECT
 		WHEN period/3 <= 2 AND period/3 > 1 THEN "Q2"
 		WHEN period/3 <=3 AND period/3 > 2 THEN "Q3"
 		WHEN period/3 <=4 AND period/3 > 3 THEN "Q4" 
-    END AS QUARTER,
+    END AS Quarter,
     CONCAT(round(sum(sold_quantity/1000000),2),"M") as total_sold_quantity_millions 
 FROM TEMP_TABLE
 WHERE fiscal_year=2020
@@ -209,6 +209,9 @@ FROM TEMP_TABLE;
 
 # division
 # product_code
+# product
+# total_sold_quantity
+# rank_order
 
 WITH temp_table AS (
 SELECT 
